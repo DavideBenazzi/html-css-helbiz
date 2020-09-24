@@ -11,12 +11,17 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
+  background: #ffffff;
 }
 
 h1 {
   color: #ffffff;
   font-size: 60px;
   margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 h4 {
@@ -61,7 +66,7 @@ a {
   }
 }
 
-/* navigazione */
+/* NAVIGAZIONE */
 .icona {
   width: 20%;
   vertical-align: middle;
@@ -87,8 +92,7 @@ header .ulist li:nth-child(9) a {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-/* DEBUG PER OSSATURA */
-/* jumbotron */
+/* JUMBOTRON */
 .jumbotron {
   height: 650px;
   width: 100%;
@@ -101,7 +105,33 @@ header .ulist li:nth-child(9) a {
 .btn {
   display: inline-block;
 }
+/* HELBIZBIKE */
 
+.bike {
+  height: 680px;
+  background: #fafafa;
+  text-align: center;
+  padding-top: 30px;
+  margin: 60px 15px 0;
+}
+
+.bike h3 {
+  margin: 15px 0;
+}
+
+.bike a {
+  font-weight: 600;
+  display: block;
+  color: #0007ff;
+  margin: 15px 0;
+}
+
+.bike img {
+  max-height: 500px;
+}
+
+
+/* DEBUG PER OSSATURA */
 /* telefono che scompare */
 .tel-none {
   background: aqua;
