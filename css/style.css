@@ -139,7 +139,7 @@ header .ulist li:nth-child(9) a {
   max-height: 500px;
 }
 
-/* telefono che scompare */
+/* PHONE CHE SCOMPARE */
 .tel-none {
   height: 500px;
   background-image: url('../img/helbiz-banner.jpg');
@@ -164,11 +164,11 @@ header .ulist li:nth-child(9) a {
 .box h5 {
   margin-top: 630px;
 }
-/* DEBUG PER OSSATURA */
-/* sezione smart */
+/* SEZIONE SMART */
 .smart  {
   height: 520px;
-  background: lightgrey;
+  background-image: url('../img/scooter-bg.jpg');
+  background-size: cover;
   position: relative;
 }
 
@@ -176,18 +176,68 @@ header .ulist li:nth-child(9) a {
   left: 75%;
 }
 
+.smart .absolute h2 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.smart .absolute h4 {
+  font-size: 16px;
+}
+
+.smart .absolute a {
+  color: #ffffff;
+  font-weight: 600;
+}
+.smart .absolute a:hover {
+  color: orange;
+}
+
+.find-gradient {
+  height: 100%;
+  background-image: url('../img/helbiz-app.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
 .find {
   height: 520px;
-  background: dodgerblue;
-  position: relative;
+  background: linear-gradient(#405569 , #263039);
 }
 
 .get {
   height: 520px;
-  background: pink;
+  background-image: url('../img/cities.jpg');
+  background-size: cover;
   position: relative;
 }
 
+.find .absolute,
+.get .absolute {
+  top: 15%;
+}
+
+.find h3,
+.get h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.find a,
+.get a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.find a:hover,
+.get a:hover {
+  color: orange;
+}
+/* DEBUG PER OSSATURA */
 /* HELBIZFAMILY */
 .helbiz-family {
   height: 520px;
