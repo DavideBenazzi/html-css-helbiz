@@ -1,5 +1,81 @@
-.box {
-  height: 400px;
-  width: 400px;
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background: #ffffff;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* UTILITY */
+.container-small {
+  width: 1070px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container-small::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.absolute {
+  height: 200px;
+  width: 460px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.only-desk {
+  display: none;
+}
+
+/* DEBUG PER OSSATURA */
+.icona {
+  background: lightgrey;
+  height: 100px;
+  width: 20%;
+  float: left;
+}
+
+.ulist {
+  background: dodgerblue;
+  height: 100px;
+  width: 50%;
+  float: right;
+}
+
+.jumbotron {
+  height: 550px;
+  width: 100%;
+  position: relative;
+  background: aquamarine;
+}
+.ulist li {
+  display:inline-block;
+}
+
+.tel-none {
+  background: aqua;
+  height: 420px;
+  width: 100%;                        <!-- IMMAGINE BACKGROUND + COVER + POSITION-->
+}
+
+.green {
+  height: 680px;
+  background: green;
+}
+.red {
+  height: 680px;
   background: red;
+}
+.yellow {
+  background: yellow;
 }
