@@ -5,6 +5,13 @@
   color: #000000;
 }
 
+header {
+  line-height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
 a {
   text-decoration: none;
 }
@@ -44,31 +51,39 @@ a {
   }
 }
 
-
-/* DEBUG PER OSSATURA */
 /* navigazione */
 .icona {
-  background: lightgrey;
-  height: 100px;
   width: 20%;
+  vertical-align: middle;
   float: left;
 }
 
 .ulist {
-  background: dodgerblue;
-  height: 100px;
-  width: 50%;
+  width: 70%;
+  text-align: right;
   float: right;
 }
+
+.ulist li {
+  display:inline-block;
+}
+
+.ulist a {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+header .ulist li:nth-child(9) a {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+/* DEBUG PER OSSATURA */
 /* jumbotron */
 .jumbotron {
   height: 550px;
   width: 100%;
   position: relative;
   background: aquamarine;
-}
-.ulist li {
-  display:inline-block;
 }
 /* telefono che scompare */
 .tel-none {
