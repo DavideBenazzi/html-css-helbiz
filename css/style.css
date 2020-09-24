@@ -79,6 +79,7 @@ a:hover {
 
 .ulist {
   width: 70%;
+  min-width: 700px;
   text-align: right;
   float: right;
 }
@@ -179,11 +180,13 @@ header .ulist li:nth-child(9) a {
 .smart .absolute h2 {
   color: #ffffff;
   font-size: 40px;
+  min-width: 400px;
   margin-bottom: 15px;
 }
 
 .smart .absolute h4 {
   font-size: 16px;
+  min-width: 400px;
 }
 
 .smart .absolute a {
@@ -194,16 +197,16 @@ header .ulist li:nth-child(9) a {
   color: orange;
 }
 
-.find-gradient {
+.find {
   height: 100%;
   background-image: url('../img/helbiz-app.png');
-  background-size: contain;
+  background-size: 500px;
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
 }
 
-.find {
+.find-gradient {
   height: 520px;
   background: linear-gradient(#405569 , #263039);
 }
@@ -224,6 +227,7 @@ header .ulist li:nth-child(9) a {
 .get h3 {
   color: #ffffff;
   font-size: 30px;
+  min-width: 300px;
   margin-bottom: 15px;
 }
 
