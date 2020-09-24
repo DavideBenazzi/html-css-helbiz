@@ -33,11 +33,20 @@ a {
   transform: translate(-50% , -50%);
 }
 
+/* SCOMPARSA PHONE */
 .only-desk {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .only-desk {
+    display: inline-block;
+  }
+}
+
+
 /* DEBUG PER OSSATURA */
+/* navigazione */
 .icona {
   background: lightgrey;
   height: 100px;
@@ -51,7 +60,7 @@ a {
   width: 50%;
   float: right;
 }
-
+/* jumbotron */
 .jumbotron {
   height: 550px;
   width: 100%;
@@ -61,21 +70,55 @@ a {
 .ulist li {
   display:inline-block;
 }
-
+/* telefono che scompare */
 .tel-none {
   background: aqua;
-  height: 420px;
-  width: 100%;                        <!-- IMMAGINE BACKGROUND + COVER + POSITION-->
+  height: 420px;                      <!-- IMMAGINE BACKGROUND + COVER + POSITION-->
 }
 
 .green {
   height: 680px;
-  background: green;
+  border: 1px solid green;
 }
 .red {
   height: 680px;
-  background: red;
+  border: 1px solid red;
 }
 .yellow {
-  background: yellow;
+  height: 680px;
+  border: 1px solid yellow;
+}
+/* sezione smart */
+.smart  {
+  height: 520px;
+  background: lightgrey;
+  position: relative;
+}
+
+.smart .absolute {
+  left: 75%;
+}
+
+.find {
+  height: 520px;
+  background: dodgerblue;
+  position: relative;
+}
+
+.get {
+  height: 520px;
+  background: pink;
+  position: relative;
+}
+
+/* HELBIZFAMILY */
+.helbiz-family {
+  height: 520px;
+  background: aquamarine;
+  position: relative;
+}
+/* FOOTER */
+.footer {
+  height: 520px;
+  background: lightgrey;
 }
