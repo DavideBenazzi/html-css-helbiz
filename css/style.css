@@ -197,7 +197,7 @@ header .ulist li:nth-child(9) a {
   color: orange;
 }
 
-.find {
+.get {
   height: 100%;
   background-image: url('../img/helbiz-app.png');
   background-size: 500px;
@@ -206,12 +206,12 @@ header .ulist li:nth-child(9) a {
   position: relative;
 }
 
-.find-gradient {
+.get-gradient {
   height: 520px;
   background: linear-gradient(#405569 , #263039);
 }
 
-.get {
+.find {
   height: 520px;
   background-image: url('../img/cities.jpg');
   background-size: cover;
