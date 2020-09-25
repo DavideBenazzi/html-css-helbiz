@@ -171,6 +171,7 @@ header .ulist li:nth-child(9) a {
   background-image: url('../img/scooter-bg.jpg');
   background-size: cover;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .smart .absolute {
@@ -209,6 +210,7 @@ header .ulist li:nth-child(9) a {
 .get-gradient {
   height: 520px;
   background: linear-gradient(#405569 , #263039);
+  margin-bottom: 20px;
 }
 
 .find {
@@ -216,6 +218,7 @@ header .ulist li:nth-child(9) a {
   background-image: url('../img/cities.jpg');
   background-size: cover;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .find .absolute,
@@ -241,12 +244,28 @@ header .ulist li:nth-child(9) a {
 .get a:hover {
   color: orange;
 }
+
+@media screen and (min-width: 768px) {
+  .padding-right {
+    padding-right: 10px;
+    padding-left: 0;
+  }
+  .padding-left {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+}
+
 /* DEBUG PER OSSATURA */
 /* HELBIZFAMILY */
 .helbiz-family {
   height: 520px;
-  background: aquamarine;
+  background-image: url('../img/social-banner.jpg');
   position: relative;
+}
+
+.helbiz-family .absolute {
+  background: #ffffff;
 }
 /* FOOTER */
 .footer {
