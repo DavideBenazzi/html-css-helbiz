@@ -59,6 +59,10 @@ a:hover {
   transform: translate(-50% , -50%);
 }
 
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
 /* SCOMPARSA PHONE */
 .only-desk {
   display: none;
@@ -256,19 +260,56 @@ header .ulist li:nth-child(9) a {
   }
 }
 
-/* DEBUG PER OSSATURA */
 /* HELBIZFAMILY */
 .helbiz-family {
   height: 520px;
   background-image: url('../img/social-banner.jpg');
   position: relative;
+  margin-bottom: 20px;
 }
 
 .helbiz-family .absolute {
   background: #ffffff;
+  padding: 50px 75px;
+}
+
+.helbiz-family .absolute li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.helbiz-family .absolute i {
+  font-size: 30px;
+}
+
+.helbiz-family .absolute i:hover {
+  color: orange;
 }
 /* FOOTER */
 .footer {
   height: 520px;
-  background: lightgrey;
+  background: #000000;
+  padding-top: 100px;
+}
+
+.footer img {
+  width: 50%;
+}
+
+.footer h3 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer li {
+  line-height: 30px;
+}
+
+.footer a {
+  color: #808080;
+  font-size: 14px;
+}
+
+.footer .container-small {
+  border-bottom: 1px solid #808080;
 }
