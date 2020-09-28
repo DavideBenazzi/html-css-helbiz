@@ -1,7 +1,6 @@
 * {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #000000;
 }
 
 header {
@@ -93,8 +92,13 @@ a:hover {
 }
 
 .ulist a {
+  color: #000000;
   font-size: 12px;
   padding: 0 10px;
+}
+
+.ulist a:hover {
+  color: orange;
 }
 
 header .ulist li:nth-child(9) a {
@@ -280,6 +284,7 @@ header .ulist li:nth-child(9) a {
 
 .helbiz-family .absolute i {
   font-size: 30px;
+  color: #000000;
 }
 
 .helbiz-family .absolute i:hover {
@@ -287,7 +292,6 @@ header .ulist li:nth-child(9) a {
 }
 /* FOOTER */
 .footer {
-  height: 520px;
   background: #000000;
   padding-top: 100px;
 }
@@ -312,4 +316,34 @@ header .ulist li:nth-child(9) a {
 
 .footer .container-small {
   border-bottom: 1px solid #808080;
+}
+
+.footer a:hover {
+  color: orange;
+}
+
+.footer .font-white a {
+  color: #ffffff;
+  display: inline-block;
+  margin: 50px 15px 50px 0;
+}
+
+.footer .font-white a:hover {
+  color: orange;
+}
+
+.footer .font-white i {
+  font-size: 20px;
+}
+
+.credits {
+  background: #000000;
+  line-height: 100px;
+  text-align: center;
+}
+
+.credits a {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px 0 10px;;
 }
